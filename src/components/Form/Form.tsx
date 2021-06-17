@@ -19,7 +19,7 @@ const Form = observer(({currentId, setCurrentId}:any) => {
         title: "",
         message: "",
         tags: [],
-        selectedFile: ""
+        selectedFile: "",
     });
     const post = currentId ? posts.posts.find((p: any) => p._id === currentId) : null
     const classes = useStyles();
